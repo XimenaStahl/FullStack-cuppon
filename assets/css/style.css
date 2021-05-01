@@ -95,3 +95,18 @@ p {
     border-radius: 4pt;
     color: #212529
 }
+
+footer {
+    justify-content: center;
+    text-align: center;
+    font-size: 10pt;
+    color: #707070;
+}
+
+footer img {
+    width: 82pt;
+}
+
+footer p {
+    font-size: 16pt;
+}
