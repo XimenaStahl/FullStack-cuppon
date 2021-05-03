@@ -8,7 +8,7 @@ body {
 }
 
 .logo {
-    width: 60%;
+    width: 86pt;
 }
 
 .fondo {
@@ -30,21 +30,20 @@ body {
 
 .nav-link {
     margin-left: 5px;
-    font-size: 16pt;
+    font-size: 12pt;
 }
 
 .card-title {
     font-weight: 300;
     color: #212529;
-    font-size: 20pt;
+    font-size: 18pt;
     margin-bottom: 20pt;
 }
 
-.card-text,
-.precio {
+.card-text {
     font-weight: 300;
     color: #707070;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 p {
@@ -54,18 +53,28 @@ p {
 .card-direcc {
     font-weight: 300;
     color: #707070;
-    font-size: 13pt;
+    font-size: 11pt;
 }
 
 .card-footer {
     text-align: right;
 }
 
+.precio {
+    font-weight: 300;
+    color: #707070;
+    font-size: 12pt;
+}
+
 .oferta {
     font-weight: 500;
     color: #28A745;
-    font-size: 20pt;
+    font-size: 16pt;
     margin-left: 10pt;
+}
+
+.secform {
+    justify-content: center;
 }
 
 .formulario {
@@ -73,6 +82,7 @@ p {
     background-color: #28A745;
     padding: 5%;
     margin-top: 50pt;
+    width: 50%;
 }
 
 .tituloform {
@@ -109,4 +119,17 @@ footer img {
 
 footer p {
     font-size: 16pt;
+}
+
+@media (max-width: 768px) {
+    .tituloform {
+        font-weight: 500;
+        font-size: 18pt;
+    }
+}
+
+@media (max-width: 425px) {
+    .formulario {
+        width: 80%;
+    }
 }
